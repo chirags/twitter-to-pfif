@@ -1,0 +1,9 @@
+Source code for the twitter-to-pfif converter
+This is a simple webservice to convert the latest data on Twitter to PFIF.
+
+1) Searches for Haiti TtT tags via search.twitter.com (See epic colorodo for the spec:  http://epic.cs.colorado.edu/helping_haiti_tweak_the_twe.html)
+2) Converts the results from twitter to PFIF
+3) I have a cron job that passes the latest max_id to this webservice, and posts the results to haiticrisis.appspot.com/developers
+
+author     Chirag Shah <chiragshah1@gmail.com>
+license    Public Domain
